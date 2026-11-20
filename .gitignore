@@ -1,0 +1,22 @@
+# Build output
+build/
+build-*/
+out/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# IDE
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
+
+# Never commit captures or screenshots taken while researching
+*.png
+*.jpg
+*.jpeg
+*.bmp
+!docs/images/**
